@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Preview project Bootstrap Clone">
+  <defs>
+    <linearGradient id="p1-bg" x1="30" y1="20" x2="770" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ede9fe"/>
+      <stop offset="1" stop-color="#ddd6fe"/>
+    </linearGradient>
+    <linearGradient id="p1-brand" x1="170" y1="120" x2="650" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <filter id="p1-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#4c1d95" flood-opacity=".22"/>
+    </filter>
+    <pattern id="p1-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0v28" fill="none" stroke="#c4b5fd" stroke-opacity=".4"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#p1-bg)"/>
+  <rect width="800" height="500" fill="url(#p1-grid)"/>
+  <circle cx="720" cy="80" r="90" fill="#c4b5fd" opacity=".45"/>
+  <circle cx="80" cy="430" r="70" fill="#e9d5ff" opacity=".8"/>
+
+  <g filter="url(#p1-shadow)">
+    <rect x="94" y="62" width="612" height="376" rx="18" fill="#ffffff"/>
+    <path d="M94 80a18 18 0 0 1 18-18h576a18 18 0 0 1 18 18v32H94V80z" fill="#0f172a"/>
+    <circle cx="118" cy="88" r="5.5" fill="#fb7185"/>
+    <circle cx="138" cy="88" r="5.5" fill="#fbbf24"/>
+    <circle cx="158" cy="88" r="5.5" fill="#34d399"/>
+    <rect x="188" y="80" width="230" height="16" rx="8" fill="#334155"/>
+    <text x="204" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94a3b8">bootstrap-clone.local</text>
+
+    <rect x="94" y="112" width="612" height="54" fill="url(#p1-brand)"/>
+    <rect x="118" y="126" width="27" height="27" rx="7" fill="#ffffff"/>
+    <text x="131.5" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#7533F9">B</text>
+    <rect x="468" y="134" width="34" height="9" rx="4.5" fill="#ffffff" opacity=".75"/>
+    <rect x="514" y="134" width="44" height="9" rx="4.5" fill="#ffffff" opacity=".55"/>
+    <rect x="570" y="134" width="32" height="9" rx="4.5" fill="#ffffff" opacity=".55"/>
+    <rect x="614" y="130" width="58" height="17" rx="8.5" fill="#ffffff" opacity=".2"/>
+
+    <rect x="94" y="166" width="612" height="224" fill="#f8fafc"/>
+    <rect x="122" y="202" width="252" height="20" rx="10" fill="#0f172a"/>
+    <rect x="122" y="232" width="300" height="20" rx="10" fill="#0f172a"/>
+    <rect x="122" y="262" width="224" height="20" rx="10" fill="#0f172a"/>
+    <rect x="122" y="300" width="288" height="8" rx="4" fill="#cbd5e1"/>
+    <rect x="122" y="316" width="256" height="8" rx="4" fill="#e2e8f0"/>
+    <rect x="122" y="332" width="274" height="8" rx="4" fill="#e2e8f0"/>
+    <rect x="122" y="356" width="86" height="22" rx="11" fill="#7533F9"/>
+    <rect x="218" y="356" width="86" height="22" rx="11" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+
+    <circle cx="560" cy="272" r="74" fill="#ede9fe"/>
+    <g transform="translate(508 232) scale(.2)">
+      <path fill="url(#p1-brand)" d="M56.481 53.32C55.515 25.58 77.128 0 106.342 0h299.353c29.214 0 50.827 25.58 49.861 53.32-.928 26.647.277 61.165 8.964 89.31 8.715 28.232 23.411 46.077 47.48 48.37v26c-24.069 2.293-38.765 20.138-47.48 48.37-8.687 28.145-9.892 62.663-8.964 89.311.966 27.739-20.647 53.319-49.861 53.319H106.342c-29.214 0-50.827-25.58-49.86-53.319.927-26.648-.278-61.166-8.966-89.311C38.802 237.138 24.07 219.293 0 217v-26c24.069-2.293 38.802-20.138 47.516-48.37 8.688-28.145 9.893-62.663 8.965-89.31z"/>
+      <path fill="#ffffff" d="M267.103 312.457c47.297 0 75.798-23.158 75.798-61.355 0-28.873-20.336-49.776-50.532-53.085v-1.203c22.185-3.609 39.594-24.211 39.594-47.219 0-32.783-25.882-54.138-65.322-54.138h-88.74v217h89.202zm-54.692-189.48h45.911c24.958 0 39.131 11.128 39.131 31.279 0 21.505-16.484 33.535-46.372 33.535h-38.67v-64.814zm0 161.961v-71.431h45.602c32.661 0 49.608 12.03 49.608 35.49 0 23.459-16.484 35.941-47.605 35.941h-47.605z"/>
+    </g>
+
+    <rect x="94" y="390" width="612" height="48" fill="#0f172a"/>
+    <rect x="122" y="408" width="60" height="10" rx="5" fill="#64748b"/>
+    <rect x="560" y="408" width="46" height="10" rx="5" fill="#64748b"/>
+    <rect x="620" y="408" width="58" height="10" rx="5" fill="#64748b"/>
+  </g>
+
+  <g filter="url(#p1-shadow)">
+    <rect x="614" y="40" width="152" height="44" rx="22" fill="#ffffff"/>
+    <circle cx="638" cy="62" r="5" fill="#22c55e"/>
+    <text x="652" y="67" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#4c1d95">Modul 7</text>
+  </g>
+</svg>

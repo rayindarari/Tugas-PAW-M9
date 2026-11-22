@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" role="img" aria-label="Ilustrasi Bootstrap">
+  <defs>
+    <linearGradient id="main-bg" x1="70" y1="30" x2="650" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f5f3ff"/>
+      <stop offset="1" stop-color="#ede9fe"/>
+    </linearGradient>
+    <linearGradient id="main-brand" x1="120" y1="90" x2="600" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="main-logo" x1="410" y1="190" x2="660" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9013fe"/>
+      <stop offset="1" stop-color="#6610f2"/>
+    </linearGradient>
+    <filter id="main-shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#4c1d95" flood-opacity=".18"/>
+    </filter>
+    <filter id="main-shadow-sm" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4c1d95" flood-opacity=".16"/>
+    </filter>
+    <pattern id="main-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#c4b5fd" stroke-opacity=".35" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="720" height="560" rx="42" fill="url(#main-bg)"/>
+  <rect width="720" height="560" rx="42" fill="url(#main-grid)" opacity=".55"/>
+  <circle cx="596" cy="124" r="108" fill="#ddd6fe" opacity=".75"/>
+  <circle cx="112" cy="474" r="92" fill="#e9d5ff" opacity=".8"/>
+  <circle cx="646" cy="470" r="10" fill="#8b5cf6" opacity=".35"/>
+  <circle cx="78" cy="86" r="7" fill="#a78bfa" opacity=".55"/>
+
+  <!-- Code window -->
+  <g transform="rotate(-4 250 250)" filter="url(#main-shadow)">
+    <rect x="46" y="116" width="392" height="268" rx="18" fill="#ffffff"/>
+    <path d="M46 134a18 18 0 0 1 18-18h356a18 18 0 0 1 18 18v30H46v-30z" fill="#0f172a"/>
+    <circle cx="72" cy="140" r="5.5" fill="#fb7185"/>
+    <circle cx="92" cy="140" r="5.5" fill="#fbbf24"/>
+    <circle cx="112" cy="140" r="5.5" fill="#34d399"/>
+    <rect x="148" y="134" width="150" height="12" rx="6" fill="#334155"/>
+
+    <rect x="72" y="188" width="74" height="10" rx="5" fill="#c4b5fd"/>
+    <rect x="156" y="188" width="118" height="10" rx="5" fill="#e2e8f0"/>
+    <rect x="72" y="212" width="42" height="10" rx="5" fill="#a78bfa"/>
+    <rect x="124" y="212" width="164" height="10" rx="5" fill="#ede9fe"/>
+    <rect x="124" y="236" width="96" height="10" rx="5" fill="#f1f5f9"/>
+    <rect x="96" y="260" width="138" height="10" rx="5" fill="#ddd6fe"/>
+    <rect x="96" y="284" width="88" height="10" rx="5" fill="#f1f5f9"/>
+    <rect x="72" y="308" width="52" height="10" rx="5" fill="#c4b5fd"/>
+    <rect x="134" y="308" width="190" height="10" rx="5" fill="#e2e8f0"/>
+    <rect x="72" y="332" width="118" height="10" rx="5" fill="#ede9fe"/>
+    <rect x="72" y="356" width="46" height="8" rx="4" fill="#a78bfa"/>
+  </g>
+
+  <!-- Bootstrap logo -->
+  <g transform="translate(402 214) scale(.56)" filter="url(#main-shadow)">
+    <path fill="url(#main-logo)" d="M56.481 53.32C55.515 25.58 77.128 0 106.342 0h299.353c29.214 0 50.827 25.58 49.861 53.32-.928 26.647.277 61.165 8.964 89.31 8.715 28.232 23.411 46.077 47.48 48.37v26c-24.069 2.293-38.765 20.138-47.48 48.37-8.687 28.145-9.892 62.663-8.964 89.311.966 27.739-20.647 53.319-49.861 53.319H106.342c-29.214 0-50.827-25.58-49.86-53.319.927-26.648-.278-61.166-8.966-89.311C38.802 237.138 24.07 219.293 0 217v-26c24.069-2.293 38.802-20.138 47.516-48.37 8.688-28.145 9.893-62.663 8.965-89.31z"/>
+    <path fill="#ffffff" stroke="#ffffff" stroke-width="2" d="M267.103 312.457c47.297 0 75.798-23.158 75.798-61.355 0-28.873-20.336-49.776-50.532-53.085v-1.203c22.185-3.609 39.594-24.211 39.594-47.219 0-32.783-25.882-54.138-65.322-54.138h-88.74v217h89.202zm-54.692-189.48h45.911c24.958 0 39.131 11.128 39.131 31.279 0 21.505-16.484 33.535-46.372 33.535h-38.67v-64.814zm0 161.961v-71.431h45.602c32.661 0 49.608 12.03 49.608 35.49 0 23.459-16.484 35.941-47.605 35.941h-47.605z"/>
+  </g>
+
+  <!-- Floating pills -->
+  <g filter="url(#main-shadow-sm)">
+    <rect x="70" y="44" width="112" height="44" rx="22" fill="#ffffff"/>
+    <text x="126" y="72" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#6d28d9">HTML5</text>
+  </g>
+  <g filter="url(#main-shadow-sm)">
+    <rect x="536" y="84" width="132" height="44" rx="22" fill="#ffffff"/>
+    <text x="602" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#6d28d9">Bootstrap</text>
+  </g>
+  <g filter="url(#main-shadow-sm)">
+    <rect x="520" y="440" width="118" height="44" rx="22" fill="#ffffff"/>
+    <text x="579" y="468" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#6d28d9">CSS3</text>
+  </g>
+  <g filter="url(#main-shadow-sm)">
+    <rect x="118" y="442" width="104" height="44" rx="22" fill="#ffffff"/>
+    <text x="170" y="470" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#6d28d9">JS</text>
+  </g>
+
+  <!-- Accent sparkles -->
+  <path d="M474 54l6 14 14 6-14 6-6 14-6-14-14-6 14-6 6-14z" fill="#a78bfa"/>
+  <path d="M656 332l4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10z" fill="#c4b5fd"/>
+</svg>
